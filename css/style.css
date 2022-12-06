@@ -393,6 +393,7 @@ button:hover{
 .section4-img{
     width: 75%;
     height: 100%;
+    position: relative;
 }
 .section4-img img{
     width: 100%;
@@ -426,6 +427,45 @@ button:hover{
 }
 .section4-text button{
     margin-top: 50px;
+}
+.services{
+    position: absolute;
+    display: flex;
+}
+.services img{
+    height: 23px;
+    width: 23px;
+}
+.s1{
+    top: 10%;
+    left: 35%;
+}
+.s2{
+    top: 20%;
+    right: 17%;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+.s3{
+    left: 22%;
+    top: 60%;
+}
+.s4{
+    right:22%;
+    top: 57%;
+}
+.s4 p{
+    text-align: right;
+    margin-right: 60px;
+}
+.s5{
+    left: 15%;
+    bottom: -10%;
+}
+.s6{
+    right: 20%;
+    bottom: 5%;
+    flex-direction: column;
 }
 
 
@@ -476,6 +516,39 @@ button:hover{
         display: flex;
         flex-direction: column;
     }
+
+    .s1{
+        top: 10%;
+        left: 35%;
+    }
+    .s2{
+        top: 15%;
+        right: 17%;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .s3{
+        left: 22%;
+        top: 45%;
+    }
+    .s4{
+        right:22%;
+        top: 47%;
+    }
+    .s4 p{
+        text-align: right;
+        margin-right: 60px;
+    }
+    .s5{
+        left: 15%;
+        bottom: 10%;
+    }
+    .s6{
+        right: 20%;
+        bottom: 25%;
+        flex-direction: column;
+    }
+    
     
 }
 @media (max-width:1024px) {
@@ -578,6 +651,9 @@ button:hover{
     }
     .section3{
         margin-top: 900px;
+    }
+    .services{
+        font-size: 8px;
     }
 }
 @media (max-width:480px) {
