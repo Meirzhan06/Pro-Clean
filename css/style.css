@@ -70,6 +70,11 @@ button{
     border: none;
     font-weight: 300;
     font-size: 18px;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #28b4e7;
 }
 .section1{
     height: 100vh;
@@ -99,6 +104,7 @@ button{
     right: 0;
     top: 50%;
     margin-right: 10px;
+    z-index: 3;
 }
 .support img{
     height: 40px;
@@ -150,7 +156,9 @@ button{
 }
 .nav-list button{
     margin-left: 60px;
+    
 }
+
 
 .bars{
     display: none;
@@ -202,6 +210,8 @@ button{
 }
 .section1-text{
     font-family: 'Manrope', sans-serif;
+    position: absolute;
+    z-index: 2;
 }
 .section1-text{
     width: 100%;
@@ -227,7 +237,10 @@ button{
     width: 230px;
     height: 50px;
 }
-
+.section2{
+    position: absolute;
+    z-index: 2;
+}
 
 
 
