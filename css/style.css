@@ -251,6 +251,9 @@ button{
     .nav-list ul li a{
         margin-left: 20px;
     }
+    .wave{
+        bottom: -30px;
+    }
 }
 @media (max-width:1024px) {
     .container{
