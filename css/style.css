@@ -360,7 +360,7 @@ button:hover{
         display: none;
     }
     .section2-block{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         height: auto;
     }
@@ -369,9 +369,13 @@ button:hover{
         justify-content: center;
     }
     .section2-block-2 img{
-        top: 70%;
+        top: -20%;
     }
     .section2-block-2{
+        width: 100%;
+        padding-right: 15px;
+    }
+    .section2-block-2 button{
         width: 100%;
     }
     .section2-block-3{
