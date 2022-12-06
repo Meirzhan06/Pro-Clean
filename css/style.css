@@ -321,5 +321,10 @@ button:hover{
     }
 }
 @media (max-width:480px) {
-    
+    .scroll-down-img{
+        left: 20%;
+    }
+    .particles-img{
+        display: none;
+    }
 }
