@@ -322,9 +322,11 @@ button:hover{
 }
 @media (max-width:480px) {
     .scroll-down-img{
-        left: 20%;
+        left: 15px;
     }
     .particles-img{
-        display: none;
+        left: 250px;
+        height: 50px;
+        width: 50px;
     }
 }
