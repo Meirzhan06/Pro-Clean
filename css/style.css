@@ -625,6 +625,37 @@ button:hover{
         width: 100%;
         justify-content: center;
     }
+    .s1{
+        top: 10%;
+        left: 35%;
+    }
+    .s2{
+        top: 15%;
+        right: 17%;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .s3{
+        left: 22%;
+        top: 50%;
+    }
+    .s4{
+        right:22%;
+        top: 47%;
+    }
+    .s4 p{
+        text-align: right;
+        margin-right: 60px;
+    }
+    .s5{
+        left: 15%;
+        bottom: 5%;
+    }
+    .s6{
+        right: 20%;
+        bottom: 18%;
+        flex-direction: column;
+    }
 }
 @media (max-width:768px) {
     .container{
@@ -655,6 +686,9 @@ button:hover{
     .services{
         font-size: 8px;
     }
+    .s4 p{
+        margin: 0;
+    }
 }
 @media (max-width:480px) {
     .scroll-down-img{
@@ -664,5 +698,21 @@ button:hover{
         left:80%;
         height: 50px;
         width: 50px;
+    }
+}
+@media (max-width:380px) {
+    .scroll-down-img{
+        left: 15px;
+    }
+    .particles-img{
+        left:80%;
+        height: 50px;
+        width: 50px;
+    }
+    .s6{
+        bottom: 12%;
+    }
+    .s2{
+        top: 10%;
     }
 }
