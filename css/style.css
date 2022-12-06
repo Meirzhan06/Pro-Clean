@@ -60,6 +60,7 @@
     margin: 0;
     padding: 0;
     font-family: 'MuseoSansCyrl';
+    overflow-x: hidden;
 }
 button{
     width: 210px;
@@ -89,6 +90,7 @@ button:hover{
     position: absolute;
     top: 0;
     left: 0;
+    overflow-y: hidden;
     background: rgba(34, 34, 34, 0.6);
 }
 .wave{
@@ -178,6 +180,7 @@ button:hover{
 }
 .burger-menu.active{
     transform: translateY(0vh);
+    /* overflow: hidden; */
 }
 .button-close-burger{
     height: 10%;
@@ -201,7 +204,6 @@ button:hover{
 
 
 .section1-content{
-    height: 100vh;
     width: 100%;
 }
 .hidden-block{
