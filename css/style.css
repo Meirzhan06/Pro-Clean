@@ -90,7 +90,7 @@ button:hover{
     position: absolute;
     top: 0;
     left: 0;
-    /* overflow-y: hidden; */
+    overflow: hidden;
     background: rgba(34, 34, 34, 0.6);
 }
 .wave{
@@ -178,6 +178,7 @@ button:hover{
     align-items: flex-end;
     background-color: #fff;
     z-index: 3;
+    overflow-y: hidden;
 }
 .burger-menu.active{
     transform: translateY(0vh);
@@ -242,7 +243,7 @@ button:hover{
 }
 .section2{
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 
 
@@ -302,6 +303,10 @@ button:hover{
     }
     .section1-text p{
         font-size: 18px;
+    }
+    .logo img{
+        width: 170px;
+        height: 45px;
     }
 }
 @media (max-width:480px) {
