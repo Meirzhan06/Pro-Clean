@@ -60,7 +60,6 @@
     margin: 0;
     padding: 0;
     font-family: 'MuseoSansCyrl';
-    overflow-x: hidden;
 }
 button{
     width: 210px;
@@ -83,6 +82,7 @@ button:hover{
     background: url('../img/background.png') 100% / 100% no-repeat;
     position: relative;
     background-size: cover;
+    overflow-x: hidden;
 }
 .background-filter{
     width: 100%;
@@ -90,7 +90,7 @@ button:hover{
     position: absolute;
     top: 0;
     left: 0;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     background: rgba(34, 34, 34, 0.6);
 }
 .wave{
@@ -177,10 +177,10 @@ button:hover{
     flex-direction: column;
     align-items: flex-end;
     background-color: #fff;
+    z-index: 3;
 }
 .burger-menu.active{
     transform: translateY(0vh);
-    /* overflow: hidden; */
 }
 .button-close-burger{
     height: 10%;
@@ -222,6 +222,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: end;
+    padding-right: 5px;
 }
 .text1{
     font-weight: 300;
@@ -294,7 +295,13 @@ button:hover{
         max-width: 480px;
     }
     .support{
-        top: 60%;
+        top: 65%;
+    }
+    .section1-text h1{
+        font-size: 32px;
+    }
+    .section1-text p{
+        font-size: 18px;
     }
 }
 @media (max-width:480px) {
