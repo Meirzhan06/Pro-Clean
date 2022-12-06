@@ -255,7 +255,7 @@ button:hover{
 .section2{
     position: relative;
     z-index: 1;
-    height: 100vh;
+    height: auto;
     width: 100%;
     padding-top: 100px;
 }
@@ -320,13 +320,54 @@ button:hover{
 
 
 
+.section3{
+    margin-top: 450px;
+    height: auto;
+    width: 100%;
+}
+
+.section-title{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.section-title img{
+    position: absolute;
+    top: -20%;
+    right: 30%;
+}
+.section-title h1{
+    font-size: 52px;
+}
+.section-title p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #888888;
+    font-weight: 300;
+}
+.section3-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.section3-card{
+    width: 340px;
+    height: auto;
+}
 
 
 
-
-
-
-
+.card-title h1{
+    font-size: 24px;
+    margin-top: 15px;
+}
+.card-title p{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 15px;
+}
 
 
 
@@ -342,6 +383,10 @@ button:hover{
     }
     .wave{
         bottom: -30px;
+    }
+    .section3-card{
+        width: 100%;
+        margin: 70px 15px 0 15px;
     }
 }
 @media (max-width:1024px) {
@@ -381,6 +426,23 @@ button:hover{
     .section2-block-3{
         width: 100%;
         justify-content: center;
+    }
+    .section3{
+        margin-top: 950px;
+    }
+    .section-title img{
+        right: -5%;
+    }
+    .section3-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3-card{
+        width: 100%;
+        margin-top: 70px
+    }
+    .section3-card img{
+        width: 100%;
     }
 }
 @media (max-width:768px) {
