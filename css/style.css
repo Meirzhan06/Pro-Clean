@@ -252,6 +252,10 @@ button:hover{
     width: 230px;
     height: 50px;
 }
+.wrapper{
+    height: auto;
+    width: 100%;
+}
 .section2{
     position: relative;
     z-index: 1;
@@ -377,7 +381,7 @@ button:hover{
 
 .section4{
     padding-top: 70px;
-    height: 100vh;
+    height: auto;
     width: 100%;
     margin-top: 30px;
 }
@@ -385,7 +389,7 @@ button:hover{
     left: 20%;
 }
 .section4-content{
-    height: 465px;
+    height: auto;
     display: flex;
     width: 100%;
     margin-top: 45px;
@@ -441,18 +445,18 @@ button:hover{
     left: 35%;
 }
 .s2{
-    top: 20%;
+    top: 17%;
     right: 17%;
     flex-direction: column-reverse;
     align-items: flex-end;
 }
 .s3{
     left: 22%;
-    top: 60%;
+    top: 50%;
 }
 .s4{
     right:22%;
-    top: 57%;
+    top: 50%;
 }
 .s4 p{
     text-align: right;
@@ -460,15 +464,52 @@ button:hover{
 }
 .s5{
     left: 15%;
-    bottom: -10%;
+    bottom: 5%;
 }
 .s6{
     right: 20%;
-    bottom: 5%;
+    bottom: 20%;
     flex-direction: column;
 }
-
-
+.section5{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+.section5-items{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    height: 380px;
+    background-color: #fff;
+    border-radius: 30px;
+    flex-basis: 30%;
+    margin-top: 30px;
+    padding: 40px 25px 5px 40px;
+    box-shadow: 0 0 10px 2px #ebebeb;
+}
+.item h1{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.item div{
+    width: 25px;
+    height: 2px;
+    background-color: #151515;
+    border-radius: 3px;
+    margin-top: 7px;
+}
+.item p{
+    margin-top: 13px;
+    color: #777777;
+    font-size: 15px;
+}
 
 
 
@@ -656,6 +697,9 @@ button:hover{
         bottom: 18%;
         flex-direction: column;
     }
+    .item{
+        flex-basis: 48%;
+    }
 }
 @media (max-width:768px) {
     .container{
@@ -688,6 +732,9 @@ button:hover{
     }
     .s4 p{
         margin: 0;
+    }
+    .item{
+        flex-basis: 100%;
     }
 }
 @media (max-width:480px) {
