@@ -621,7 +621,7 @@ button:hover{
     margin-top: 10px;
     color: #666666;
 }
-.slider-item{
+.slider .slider-item{
     width: auto;
     padding-left: 20px;
     display: flex;
@@ -629,18 +629,18 @@ button:hover{
     align-items: center;
     position: relative;
 }
-.slider-item img{
+.slider .slider-item img{
     width: 280px;
     height: 235px;
 }
-.slider-item .slide-sircle{
+.slider .slider-item .slide-sircle{
     height: 98px;
     width: 98px;
     position: absolute;
     right: -5%;
     top: -5%;
 }
-.slider-item .slide-particle{
+.slider .slider-item .slide-particle{
     height: 47px;
     width: 47px;
     position: absolute;
@@ -677,11 +677,103 @@ button:hover{
     background-color: #05A1DC;
     border: none;
 }
+.section8{
+    margin-top: 80px;
+    width: 100%;
+}
+.section8 .section-title img{
+    right: 25%;
+}
+.slider2{
+    width: 100%;
+    margin-top: 50px;
+}
+.slider2 .slider-item{
+    display: flex;
+}
+.slider2 .slider-item img{
+    margin-left: 15px;
+    height: 614px;
+}
 
+.slider2 .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.slider2 .slick-dots li{
+    list-style-type: none;
+    margin: 0 8px;
+}
+.slider2 .slick-dots button{
+    height: 8px;
+    width: 8px;
+    font-size: 0;
+    border: 1px solid #9B9B9B;
+    background-color: #fff;
+}
 
+.slider2 .slick-dots li.slick-active button{
+    width: 22px;
+    background-color: #05A1DC;
+    border: none;
+}
 
-
-
+.section9{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.section9-1{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    background-color: red;
+}
+.section9-1 img{
+    position: absolute;
+    margin-top: 55px;
+}
+.phone1{
+    right: 0;
+    top: 0;
+    z-index: 15;
+    width: 60%;
+}
+.phone2{
+    right: 39%;
+    top: 13%;
+    z-index: 14;
+    width: 40%;
+}
+.phone3{
+    right: 60%;
+    top: 22%;
+    z-index: 13;
+    width: 30%;
+}
+.section9-2{
+    width: 45%;
+    height: 100%;
+    padding: 5px 45px 15px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section9-2 h1{
+    font-size: 52px;
+    font-weight: 500;
+}
+.section9-2 p{
+    font-size: 20px;
+    color:#888888;
+    margin-top: 15px;
+}
+.section9-2 button{
+    margin-top: 35px;
+}
 
 @media (max-width:1200px) {
     .container{
@@ -960,6 +1052,26 @@ button:hover{
     .section7 .section-title img{
         left: -7%;
     }
+    .section9{
+        flex-direction: column;
+    }
+    .section9-1{
+        width: 100%;
+    }
+    .section9-2{
+        width: 100%;
+        margin-top: 650px;
+        display: flex;
+        flex: content;
+        text-align: center;
+        align-items: center;
+    }
+    .phone2{
+        top: 75px;
+    }
+    .phone3{
+        top: 110px;
+    }
 }
 @media (max-width:480px) {
     .scroll-down-img{
@@ -969,6 +1081,9 @@ button:hover{
         left:80%;
         height: 50px;
         width: 50px;
+    }
+    .section9-2{
+        margin-top: 550px;
     }
 
 }
@@ -1006,5 +1121,8 @@ button:hover{
         position: absolute;
         right: 8%;
         top: 1%;
+    }
+    .section9-2{
+        margin-top: 450px;
     }
 }
