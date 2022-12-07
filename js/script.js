@@ -11,3 +11,34 @@ $(document).ready(function() {
         $('body').removeClass('lock');
     });
 });
+
+$(document).ready(function(){
+    $('.slider').slick({
+        arrows:false,
+        dots:true,
+        slidesToShow:4,
+        slidesToScroll:2,
+        responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll:1
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll:1
+              }
+            }
+          ]
+    });
+});

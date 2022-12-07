@@ -529,7 +529,7 @@ button:hover{
     width: 60%;
     height: 100%;
     position: relative;
-    padding: 65px 0 65px 150px;
+    padding: 105px 0 0 150px;
     color: #fff;
 }
 .section6-block-1 h1{
@@ -600,8 +600,83 @@ button:hover{
     height: 50px;
 }
 
+.section7{
+    width: 100%;
+}
+.section7 .section-title img{
+    left: 28%;
+}
+.slider{
+    width: 100%;
+    margin-top: 50px;
+}
+.slider-text{
+    top: 0;
+    height: 245px;
+    width: 280px;
+    padding: 35px 5px 5px 22px;
+    background-color: #F4F7F9;
+}
+.slider-text p{
+    margin-top: 10px;
+    color: #666666;
+}
+.slider-item{
+    width: auto;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.slider-item img{
+    width: 280px;
+    height: 235px;
+}
+.slider-item .slide-sircle{
+    height: 98px;
+    width: 98px;
+    position: absolute;
+    right: -5%;
+    top: -5%;
+}
+.slider-item .slide-particle{
+    height: 47px;
+    width: 47px;
+    position: absolute;
+    right: 3%;
+    top: 1%;
+}
+.slick-track{
+    display: flex;
+}
+.slick-list{
+    overflow: hidden;
+}
 
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.slider .slick-dots li{
+    list-style-type: none;
+    margin: 0 8px;
+}
+.slider .slick-dots button{
+    height: 8px;
+    width: 8px;
+    font-size: 0;
+    border: 1px solid #9B9B9B;
+    background-color: #fff;
+}
 
+.slider .slick-dots li.slick-active button{
+    width: 22px;
+    background-color: #05A1DC;
+    border: none;
+}
 
 
 
@@ -678,6 +753,9 @@ button:hover{
         bottom: 25%;
         flex-direction: column;
     }
+    .section7 .section-title img{
+        left: 22%;
+    }
     
     
 }
@@ -747,6 +825,7 @@ button:hover{
     .section4-text{
         width: 100%;
         align-items: center;
+        padding-left: 0;
     }
     .section4-text button{
         width: 100%;
@@ -792,6 +871,7 @@ button:hover{
     .section6-block{
         flex-direction: column-reverse;
         align-items: center;
+        border-radius: 50px;
     }
     .section6-block-1{
         width: 100%;
@@ -820,6 +900,26 @@ button:hover{
     }
     .section6-block-1 h1{
         text-align: center;
+    }
+    .slider-item .slide-sircle{
+        height: 98px;
+        width: 98px;
+        position: absolute;
+        right: 10%;
+        top: -5%;
+    }
+    .slider-item .slide-particle{
+        height: 47px;
+        width: 47px;
+        position: absolute;
+        right: 18%;
+        top: 1%;
+    }
+    .slider-item{
+        padding-left: 0;
+    }
+    .section7 .section-title img{
+        left: 15%;
     }
 }
 @media (max-width:768px) {
@@ -857,6 +957,9 @@ button:hover{
     .item{
         flex-basis: 100%;
     }
+    .section7 .section-title img{
+        left: -7%;
+    }
 }
 @media (max-width:480px) {
     .scroll-down-img{
@@ -886,5 +989,22 @@ button:hover{
     }
     .part1{
         top: 15%;
+    }
+    .section7 .section-title img{
+        left: 5%;
+    }
+    .slider-item .slide-sircle{
+        height: 98px;
+        width: 98px;
+        position: absolute;
+        right: 0%;
+        top: -5%;
+    }
+    .slider-item .slide-particle{
+        height: 47px;
+        width: 47px;
+        position: absolute;
+        right: 8%;
+        top: 1%;
     }
 }
