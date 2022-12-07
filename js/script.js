@@ -11,6 +11,12 @@ $(document).ready(function() {
         $('body').removeClass('lock');
     });
 });
+$(document).ready(function() {
+    $('.x').click(function(event) {
+        $('.burger-menu').removeClass('active');
+        $('body').removeClass('lock');
+    });
+});
 
 $(document).ready(function(){
     $('.slider').slick({

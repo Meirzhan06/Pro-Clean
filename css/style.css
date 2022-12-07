@@ -1152,6 +1152,9 @@ button:hover{
     .sec1-4{
         flex-basis: 50;
     }
+    .section9{
+        margin-bottom: 350px;
+    }
 }
 @media (max-width:768px) {
     .container{
@@ -1217,12 +1220,18 @@ button:hover{
     }
     .sec1-2{
         flex-basis: 100%;
+        margin-top: 30px;
     }
     .sec1-3{
         flex-basis: 100%;
+        margin-top: 30px;
     }
     .sec1-4{
         flex-basis: 100%;
+        margin-top: 30px;
+    }
+    .foot-section2{
+        margin-top: 30px;
     }
 }
 @media (max-width:480px) {
